@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: column;
+  border: 1px solid black;
+  min-height: 799px;
+}
+
+.AppHeader {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.AppBody {
+  flex: 8;
+}
+
+.input-text{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-ctn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
