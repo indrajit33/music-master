@@ -3,6 +3,7 @@ import logo from '../logo.svg';
 import './App.css';
 import Artist from './Artist';
 import Tracks from './Tracks';
+import Search from './Search';
 
 class App extends Component {
 
@@ -14,11 +15,7 @@ class App extends Component {
 
         <div className="AppHeader">
           <h2>Music Master</h2>
-
-          <div className="input-text">
-            <input id="singer" placeholder="Enter The Singer Name"/>
-            <button onClick = {this.handelclick} >Search</button>
-          </div>
+          <Search func = {this.handelclick} />
           <Artist artist={this.state.res1} />
         </div>
 

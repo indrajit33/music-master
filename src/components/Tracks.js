@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Tracks extends Component{
+class Tracks extends Component {
 
   state = { playing: false, audio: null, playingPreviewUrl: null };
 
